@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="valuefrom" value="Madurai"/>
+    <classes>
+      <class name="com.loginTestOne.MakeMyTrip.TestRunner">
+        <methods>
+          <include name="screenshot"/>
+          <include name="urlLaunch"/>
+          <include name="validation"/>
+          <include name="exitWindow"/>
+          <include name="broserLaunch"/>
+          <include name="firefox"/>
+          <include name="chrome"/>
+        </methods>
+      </class> <!-- com.loginTestOne.MakeMyTrip.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
